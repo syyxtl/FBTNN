@@ -50,8 +50,10 @@ the well trained model is store in /FBTNN/data. the work you should do is write 
       <br><br>
       step 3: find the folloing code in FBTNN.py - Line 89 
       ```python
-      model.save("three_scale_tl_h2_l.h5") # please change the model-name as you want
+      model.save("three_scale_tl_h2_l.h5") 
       ```
-      
+      ```
+      please change the model-name as you want
+      ```
 <br>
 Alternative, you can feed your own data in the "FBTNN.py" can also get a good result.
