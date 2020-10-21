@@ -9,8 +9,6 @@
 ## Crawl the data with python & scrapy
 scrapy is used to crawl the data(https://scrapy.org/)
 
-The example is in the folder : "spider"
-
 Considering that some websites like ‘https://sh.meituan.com/’ may set a series of anti-crawl mechanism, we suggest that you have the following work before you start to scrwal you own data
 
 https://github.com/Python3WebSpider/ProxyPool
