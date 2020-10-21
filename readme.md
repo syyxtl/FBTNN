@@ -39,3 +39,5 @@ keras 2.4.3 <br>
 ### Expansibility
 the well trained model is store in data(we recommand three_scale_sh_h3.h5)
 the work you should do is write a model in mmodel.py and extend the model(we have three models for you to learn)
+
+Alternative, you can feed your own data in the "FBTNN.py" can also get a good result.
