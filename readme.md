@@ -15,11 +15,15 @@ Considering that some websites like ‘https://sh.meituan.com/’ may set a seri
 
 https://github.com/Python3WebSpider/ProxyPool
 
-# Extract prior konwledge from multiple linear regression
+## FBTNN， a model focus on residential location choice both in- and inter- cities
+## Information entropy
+information entropy is used in the paper to release the problem of consistency of distribution of data, Researchers can collect their data in their own distribution under our definition of features. 
+
+## Extract prior konwledge from multiple linear regression, Exmaple
       run inputs_train.py
       
-# Feature Transfer
+## Feature Transfer, Example
       run FBTNN.py
       
-# Eval data
+## Eval data, Example
       run eval.py
