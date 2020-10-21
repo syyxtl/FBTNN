@@ -48,10 +48,11 @@ the well trained model is store in /FBTNN/data. the work you should do is write 
       please change the './model/three_scale_sh_h3.h5' to a new model which is end with 'tl' in /FBTNN/model/
       ```
       <br><br>
-      step 3: find the folloing code in FBTNN.py - Line 89 
+      step 3: find the folloing code in FBTNN.py - Line 89 <br>
       ```python
       model.save("three_scale_tl_h2_l.h5") 
       ```
+      <br>
       ```
       please change the model-name as you want
       ```
