@@ -37,15 +37,15 @@ keras 2.4.3 <br>
       run eval.py
 
 ### Expansibility
-the well trained model is store in data. <br>
-the work you should do is write a model in mmodel.py and extend the model(we have three models for you to learn). Simply, you can do the following things to get a new model<br>
-      step 1: collect the data and calculte the information entropy under our definition of features.<br>
-      step 2: find the folloing code in FBTNN.py - Line 62 <br>
+the well trained model is store in /FBTNN/data. the work you should do is write a model in mmodel.py and extend the model(we have three models for you to learn). Simply, you can do the following things to get a new model<br><br>
+      step 1: collect the data and calculte the information entropy under our definition of features.<br><br>
+      step 2: find the folloing code in FBTNN.py - Line 62 <br><br>
       ```python
       base_model = load_model('./model/three_scale_sh_h3.h5').get_layer(index=0)  
       ```
+      <br>
       # please change the model-name to "*_tl_*_l.h5" in /FBTNN/model/<br>
-      step 3: find the folloing code in FBTNN.py - Line 89 <br>
+      step 3: find the folloing code in FBTNN.py - Line 89 <br><br>
       ```python
       model.save("three_scale_tl_h2_l.h5") # please change the model-name as you want
       ```
