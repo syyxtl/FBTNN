@@ -56,5 +56,5 @@ the well trained model is store in /FBTNN/data. the work you should do is write 
       ```
       please change the model-name as you want
       ```
-<br>
+<br><br>
 Alternative, you can feed your own data in the "FBTNN.py" can also get a good result.
